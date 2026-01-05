@@ -18,9 +18,9 @@ export const HeroSection: React.FC = () => {
       </p>
 
       <div className="flex flex-wrap justify-center gap-6">
-        <Badge text="Cero Fugas de Memoria" color="green" />
-        <Badge text="Asignación Híbrida CPU/GPU" color="blue" />
-        <Badge text="Eficiencia Energética" color="green" />
+        <Badge text="Wearables / IoT / Móvil" color="green" />
+        <Badge text="Híbrido CPU / GPU / NPU / DSP" color="blue" />
+        <Badge text="Optimización Energética" color="green" />
       </div>
     </header>
   );

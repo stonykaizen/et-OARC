@@ -2,9 +2,7 @@
 import React from 'react';
 import { HeroSection } from './components/HeroSection';
 import { ProblemSection } from './components/ProblemSection';
-import { FlowDiagram } from './components/FlowDiagram';
 import { PatentFlow } from './components/PatentFlow';
-import { TechnicalSpecs } from './components/TechnicalSpecs';
 import { TechnicalConcepts } from './components/TechnicalConcepts';
 import { ConclusionBanner } from './components/ConclusionBanner';
 
@@ -23,32 +21,24 @@ const App: React.FC = () => {
         {/* 2. EL PROBLEMA */}
         <ProblemSection />
 
-        {/* 3. DIAGRAMA DE PATENTE (NUEVO) */}
+        {/* 3. DIAGRAMA DE PATENTE */}
         <section className="flex flex-col items-center">
           <div className="w-px h-24 bg-gradient-to-b from-transparent via-blue-500/20 to-blue-500/40 mb-12"></div>
           <h2 className="font-mono text-[10px] uppercase tracking-[0.5em] text-blue-500/60 mb-16 border-x border-blue-900/30 px-6 py-1 bg-blue-500/5">
-            Arquitectura de Flujo Lógico (Patente)
+            Arquitectura de Flujo Lógico (Figura 1)
           </h2>
           <PatentFlow />
         </section>
 
-        {/* 4. DIAGRAMA DE ORQUESTACIÓN */}
-        <section className="flex flex-col items-center">
-          <h2 className="font-mono text-[10px] uppercase tracking-[0.5em] text-blue-500/60 mb-16 border-x border-blue-900/30 px-6 py-1 bg-blue-500/5">
-            Proceso de Inferencia y Rehidratación
-          </h2>
-          <FlowDiagram />
-        </section>
-
-        {/* 5. CONCEPTOS TÉCNICOS */}
+        {/* 4. CONCEPTOS TÉCNICOS */}
         <section className="flex flex-col items-center">
           <h2 className="font-mono text-[10px] uppercase tracking-[0.5em] text-emerald-500/60 mb-12 border-x border-emerald-900/30 px-6 py-1 bg-emerald-500/5">
-            Núcleos Funcionales
+            Núcleos Funcionales OARC
           </h2>
           <TechnicalConcepts />
         </section>
 
-        {/* 6. CONCLUSIÓN */}
+        {/* 5. CONCLUSIÓN */}
         <ConclusionBanner />
       </main>
     </div>

@@ -18,7 +18,7 @@ export const TechnicalConcepts: React.FC = () => {
       />
       <ConceptCard 
         title="Rehidratación" 
-        description="Transfiere vectores de 'estilo' e 'identidad' al siguiente tramo. Mantiene la coherencia sin ocupar RAM acumulada." 
+        description="Transfiere vectores, índices y/o metadatos, facilitando coherencia global." 
         id="OARC_REHYD_03"
         color="green"
       />
