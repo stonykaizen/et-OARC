@@ -2,7 +2,7 @@
 import React from 'react';
 import { HeroSection } from './components/HeroSection';
 import { ProblemSection } from './components/ProblemSection';
-import { PatentFlow } from './components/PatentFlow';
+import { FlowDiagram } from './components/FlowDiagram';
 import { TechnicalConcepts } from './components/TechnicalConcepts';
 import { ConclusionBanner } from './components/ConclusionBanner';
 
@@ -21,13 +21,13 @@ const App: React.FC = () => {
         {/* 2. EL PROBLEMA */}
         <ProblemSection />
 
-        {/* 3. DIAGRAMA DE PATENTE */}
+        {/* 3. DIAGRAMA DE ORQUESTACIÓN */}
         <section className="flex flex-col items-center">
           <div className="w-px h-24 bg-gradient-to-b from-transparent via-blue-500/20 to-blue-500/40 mb-12"></div>
           <h2 className="font-mono text-[10px] uppercase tracking-[0.5em] text-blue-500/60 mb-16 border-x border-blue-900/30 px-6 py-1 bg-blue-500/5">
-            Arquitectura de Flujo Lógico (Figura 1)
+            Arquitectura Técnica OARC // Flujo de Trabajo
           </h2>
-          <PatentFlow />
+          <FlowDiagram />
         </section>
 
         {/* 4. CONCEPTOS TÉCNICOS */}
